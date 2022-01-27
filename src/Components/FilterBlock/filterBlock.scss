@@ -1,0 +1,19 @@
+.filterBlock{
+  transition: all 1s;
+  margin-top: 20px;
+  overflow: hidden;
+  &__title{
+    text-transform: uppercase;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__button{
+    border: none;
+    cursor: pointer;
+    img{
+      width: 20px;
+    }
+  }
+}

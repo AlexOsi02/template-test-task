@@ -1,0 +1,19 @@
+.app{
+  display: grid;
+  grid-template-areas: "menu header header"
+                       "menu main main";
+}
+
+.main{
+  font-size: 150px;
+  grid-area: main;
+  padding: 20px;
+}
+
+.header{
+  grid-area: header;
+}
+
+.menu{
+  grid-area: menu;
+}

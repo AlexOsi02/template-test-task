@@ -1,0 +1,49 @@
+.menu {
+  top: 0;
+  position: sticky;
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  overflow: hidden;
+  border-right: 2px solid black;
+  transition: all 1s;
+  &:hover{
+    width: 330px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    img {
+      margin-left: -15px;
+      width: 100px;
+    }
+  }
+  &__companyName{
+    text-transform: uppercase;
+    font-size: 20px;
+    min-width: 200px;
+  }
+
+  &__item{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    &:first-child{
+      margin-top: 10px;
+    }
+    &-label{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      margin-left: 90px;
+    }
+  }
+}
