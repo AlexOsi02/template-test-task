@@ -5,12 +5,12 @@
                         "menu main main";
 }
 
-.main{
+.main {
+  min-height: 900px;
   font-size: 150px;
   grid-area: main;
-  padding: 0 20px 20px 20px;
+  padding: 20px;
 }
-
 .header{
   grid-area: header;
 }
